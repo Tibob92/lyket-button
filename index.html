@@ -1,10 +1,30 @@
-<html style="height: 100%;background-color: black;">
-  <body>
-    <div
-      data-lyket-type="like"
-      data-lyket-id="notion-test"
-      data-lyket-template="twitter"
-      style="text-align: center;"
-    ></div>
-  </body>
-</html>
+<! DOCTYPE html>  
+<html>  
+<head>  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+<style>  
+.fa {  
+  font-size: 50px;  
+  cursor: pointer;  
+  user-select: none;  
+}  
+.fa:hover {  
+  color: darkblue;  
+}  
+p {  
+ color: darkblue;  
+ }  
+</style>  
+</head>  
+<body>  
+<center>  
+<p>Click on the like button for (like/dislike):</p>  
+<i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>  
+</center>  
+<script>  
+function myFunction(x) {  
+  x.classList.toggle("fa-thumbs-down");  
+}  
+</script>  
+</body>  
+</html> 
